@@ -1,2 +1,23 @@
-# Hospital-management-system-project
- This console-based application helps manage patients and doctors in a hospital using file handling in C. It allows adding, viewing, and removing records efficiently.  Features Admit Patient – Adds a new patient with ID, name, address, disease, and admission date.  Patient List – Displays all admitted patients from patient.txt.  Discharge Patient – Removes a patient by ID and updates records.  Add Doctor – Registers a doctor with ID, name, address, specialization, and date.  Doctor List – Shows all registered doctors from doctor.txt.  Exit – Closes the program.  Technical Aspects Structures (struct patient, struct doctor) store data.  File Handling (fopen(), fwrite(), fread()) ensures data persistence.  Date Management (time.h) automatically records admission/registration dates.  system("cls") clears the screen for a better user experience.
+This console-based application helps manage patients and doctors in a hospital using file handling in C. It allows adding, viewing, and removing records efficiently.
+
+Features
+Admit Patient – Adds a new patient with ID, name, address, disease, and admission date.
+
+Patient List – Displays all admitted patients from patient.txt.
+
+Discharge Patient – Removes a patient by ID and updates records.
+
+Add Doctor – Registers a doctor with ID, name, address, specialization, and date.
+
+Doctor List – Shows all registered doctors from doctor.txt.
+
+Exit – Closes the program.
+
+Technical Aspects
+Structures (struct patient, struct doctor) store data.
+
+File Handling (fopen(), fwrite(), fread()) ensures data persistence.
+
+Date Management (time.h) automatically records admission/registration dates.
+
+system("cls") clears the screen for a better user experience.
