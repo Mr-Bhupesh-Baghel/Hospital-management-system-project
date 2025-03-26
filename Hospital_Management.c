@@ -8,6 +8,7 @@ struct patient{
     char patientAddress[50];
     char disease[50];
     char date[12];
+    
 }p;
 
 struct doctor{
